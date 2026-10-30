@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff0f4">
+  <meta name="description" content="A little birthday surprise made with love for Baboola.">
+  <title>For Baboola 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero paper" id="home">
+      <div class="tiny-label">A LITTLE SOMETHING, JUST FOR YOU</div>
+      <div class="hero-flower" aria-hidden="true">✿</div>
+      <p class="script hello">To my favourite person,</p>
+      <h1>Happy Birthday,<br><span>Baboola</span> <i>♡</i></h1>
+      <p class="intro">I made you a tiny corner of the internet<br>to hold a few pieces of my heart.</p>
+      <button class="primary" id="beginBtn">Open your little surprise <span>↗</span></button>
+      <div class="tape tape-one" aria-hidden="true"></div>
+      <div class="scribble" aria-hidden="true">made with<br>♡ & a lot of love</div>
+      <div class="scroll-note">SCROLL SLOWLY ↓</div>
+    </section>
+
+    <section class="film-section" id="our-film">
+      <div class="film-heading">
+        <p class="eyebrow">A TINY LOVE STORY</p>
+        <h2>20 seconds of <em>us.</em></h2>
+        <p>Press play, turn the sound on, and watch our little memories unfold.</p>
+      </div>
+      <div class="film" id="loveFilm">
+        <div class="film-progress" aria-hidden="true"><span id="filmProgress"></span></div>
+        <div class="film-scene scene-one active" data-scene="0">
+          <div class="film-wash"></div>
+          <p class="film-kicker">A little reminder...</p>
+          <h3>Out of everyone<br>in this world,</h3>
+          <div class="film-photo photo-a"><img src="assets/photo-1.jpg" alt="Our first memory" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="film-photo-placeholder">Add photo 1 ♡</span></div>
+          <span class="film-doodle">♡</span>
+        </div>
+        <div class="film-scene scene-two" data-scene="1">
+          <div class="film-wash"></div>
+          <p class="film-kicker">My favourite kind of magic</p>
+          <div class="film-photo photo-b"><img src="assets/photo-2.jpg" alt="A favourite moment together" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="film-photo-placeholder">Add photo 2 ♡</span></div>
+          <h3>you are my<br><em>favourite person.</em></h3>
+          <span class="film-caption">the little moments mean everything ✿</span>
+        </div>
+        <div class="film-scene scene-three" data-scene="2">
+          <div class="film-wash"></div>
+          <p class="film-kicker">If I could keep one thing...</p>
+          <div class="film-photo photo-c"><img src="assets/photo-3.jpg" alt="Another memory together" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="film-photo-placeholder">Add photo 3 ♡</span></div>
+          <h3>I'd keep making<br><em>memories with you.</em></h3>
+          <span class="film-doodle doodle-two">✦</span>
+        </div>
+        <div class="film-scene scene-four" data-scene="3">
+          <div class="film-wash"></div>
+          <div class="mini-cake" aria-hidden="true"><span class="mini-flame"></span><span class="mini-icing"></span><span class="mini-layer"></span><span class="mini-plate"></span></div>
+          <p class="film-kicker">Today is all about you</p>
+          <h3>Happy Birthday,<br><em>Baboola!</em></h3>
+          <p class="film-final-line">May your wishes come true, beautiful girl. ♡</p>
+          <div class="film-confetti" id="filmConfetti" aria-hidden="true"></div>
+        </div>
+        <div class="film-bottom"><span id="filmTime">00:00</span><span>MADE WITH LOVE ♡</span><span>00:20</span></div>
+      </div>
+      <div class="film-controls">
+        <button class="primary" id="playFilmBtn">▶ Play our 20-second story</button>
+        <p id="filmStatus" aria-live="polite">Add your photos and song to make this yours.</p>
+      </div>
+    </section>
+
+    <section class="memory-section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">OUR LITTLE UNIVERSE</p>
+        <h2>Little moments,<br><em>big feelings.</em></h2>
+        <p>Some memories are tiny. Somehow, they mean everything.</p>
+      </div>
+      <div class="scrapbook">
+        <article class="polaroid tilt-left">
+          <div class="photo-frame"><img src="assets/photo-1.jpg" alt="A favourite memory of us" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>📷</span><b>Our first photo</b><small>Add your photo here</small></div></div>
+          <p class="caption">One of my favourite days ✿</p><span class="pin">♡</span>
+        </article>
+        <article class="polaroid tilt-right polaroid-high">
+          <div class="photo-frame"><img src="assets/photo-2.jpg" alt="A sweet memory together" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>🌷</span><b>Your smile</b><small>Add your photo here</small></div></div>
+          <p class="caption">Proof that my camera loves you</p><span class="pin star">✦</span>
+        </article>
+        <article class="polaroid tilt-right polaroid-low">
+          <div class="photo-frame"><img src="assets/photo-3.jpg" alt="Another memory of us" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>☁️</span><b>Our kind of happy</b><small>Add your photo here</small></div></div>
+          <p class="caption">If I could, I'd keep this moment</p><span class="pin">♡</span>
+        </article>
+        <article class="note-card tilt-left">
+          <span class="note-flower">✿</span>
+          <p class="script">If I had to choose<br>again and again...</p>
+          <p class="note-big">I'd still choose<br><strong>you.</strong></p>
+          <span class="note-small">— always, in all the little ways</span>
+        </article>
+      </div>
+      <p class="photo-tip">♡ Replace the sample photo spots with your favourite pictures together.</p>
+    </section>
+
+    <section class="letter-section">
+      <div class="letter paper">
+        <div class="letter-stamp">FOR<br>MY LOVE</div>
+        <p class="eyebrow">A NOTE FROM MY HEART</p>
+        <h2>Dear Baboola,</h2>
+        <p class="letter-copy">I wish you could see yourself through my eyes, even for a minute. You'd understand why your smile can change my whole day, why the smallest moments with you become my favourite memories, and why having you in my life feels like such a beautiful thing.</p>
+        <p class="letter-copy">Today is about celebrating <em>you</em> — your heart, your little quirks, your dreams, and all the things that make you wonderfully you. I hope this new year brings you soft days, loud laughter, brave dreams, and a hundred reasons to smile.</p>
+        <p class="letter-copy">Thank you for being part of my story. I hope I get to make so many more memories with you, one ordinary and extraordinary day at a time.</p>
+        <p class="script signature">Happy birthday, my Baboola. ♡</p>
+        <p class="signoff">Yours, with all my love</p>
+        <div class="letter-doodle" aria-hidden="true">♡</div>
+      </div>
+    </section>
+
+    <section class="wish-section" id="wish">
+      <div class="wish-card">
+        <div class="cake" aria-label="Birthday cake illustration">
+          <div class="candle"><span class="flame"></span></div>
+          <div class="icing"></div><div class="cake-top"></div><div class="cake-layer layer-one"></div><div class="cake-layer layer-two"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <p class="eyebrow">ONE LAST LITTLE THING</p>
+        <h2>Make a wish,<br><em>birthday girl.</em></h2>
+        <p class="wish-copy">Close your eyes, make your sweetest wish,<br>and tap the button when you're ready.</p>
+        <button class="primary" id="wishBtn">I've made my wish ✨</button>
+        <p class="final-message" id="finalMessage" aria-live="polite">May your year be as lovely as the love you give. Happy birthday, Baboola! 💗</p>
+        <div class="confetti" id="confetti" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <footer>
+      <p>made for Baboola, with all my heart <span>♡</span></p>
+      <button class="music-toggle" id="musicBtn" aria-pressed="false">♫ Add our song</button>
+      <audio id="song" preload="none" loop>
+        <source src="assets/our-song.mp3" type="audio/mpeg">
+      </audio>
+      <p class="music-help">Add your song as <code>assets/our-song.mp3</code>, then tap “Add our song”.</p>
+      <button class="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to the beginning ↑</button>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
